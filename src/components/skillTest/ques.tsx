@@ -1,6 +1,6 @@
 "use client";
 
-import { useStoreState } from "@/pages/store";
+import { useStoreState } from "@/lib/store";
 import { Circle } from "rc-progress";
 
 export const QuestionAnalysis = () => {

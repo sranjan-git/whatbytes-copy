@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import { Avatar, AvatarImage } from "./layout/avatar";
-import { useAuth } from "@/pages/auth";
-import { cn } from "@/pages/utils";
+import { useAuth } from "@/lib/auth";
+import { cn } from "@/lib/utils";
 
 export const Header = () => {
   const { user, handleSignIn, handleSignOut } = useAuth();

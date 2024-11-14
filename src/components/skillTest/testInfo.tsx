@@ -22,9 +22,9 @@ import {
   FormControl,
   FormMessage,
 } from "../layout/form";
-import { FormSchema, formSchema } from "@/pages/form";
-import { FCProps } from "@/pages/types";
-import { initialState, useStoreActions } from "@/pages/store";
+import { FormSchema, formSchema } from "@/lib/form";
+import { FCProps } from "@/lib/types";
+import { initialState, useStoreActions } from "@/lib/store";
 import { useRef } from "react";
 
 export const TestInfo = () => {

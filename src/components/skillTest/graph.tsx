@@ -25,7 +25,7 @@ import {
 } from "@/components/layout/chart";
 import { Circle } from "lucide-react";
 import { Avatar, AvatarFallback } from "../layout/avatar";
-import { useStoreState } from "@/pages/store";
+import { useStoreState } from "@/lib/store";
 
 interface ChartData {
   percentile: number;

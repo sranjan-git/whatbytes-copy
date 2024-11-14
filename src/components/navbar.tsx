@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { BarChart2, File, MedalIcon } from "lucide-react";
-import type { FCProps } from "@/pages/types";
+import type { FCProps } from "@/lib/types";
 
 export const NavBar = () => {
   return (

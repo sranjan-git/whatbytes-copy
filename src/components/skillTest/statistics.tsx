@@ -2,8 +2,8 @@
 
 import { Separator } from "../layout/separator";
 import { Avatar, AvatarFallback } from "../layout/avatar";
-import { useStoreState } from "@/pages/store";
-import type { FCProps } from "@/pages/types";
+import { useStoreState } from "@/lib/store";
+import type { FCProps } from "@/lib/types";
 import Link from "next/link";
 
 export const QuickStats = () => {

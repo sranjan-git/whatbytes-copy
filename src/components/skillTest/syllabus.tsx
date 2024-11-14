@@ -1,8 +1,8 @@
 "use client";
 
 import { Line } from "rc-progress";
-import type { FCProps } from "@/pages/types";
-import { cn } from "@/pages/utils";
+import type { FCProps } from "@/lib/types";
+import { cn } from "@/lib/utils";
 
 export const SyllabusAnalysis = () => {
   return (
